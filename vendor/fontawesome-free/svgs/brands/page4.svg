@@ -1,0 +1,9 @@
+ovat pomocí vzoru vazby.",
+  "A_promise_must_have_a_then_method_1059": "Příslib musí mít metodu then.",
+  "A_property_of_a_class_whose_type_is_a_unique_symbol_type_must_be_both_static_and_readonly_1331": "Vlastnost třídy, jejíž typ je unique symbol, musí být static a readonly.",
+  "A_property_of_an_interface_or_type_literal_whose_type_is_a_unique_symbol_type_must_be_readonly_1330": "Vlastnost rozhraní nebo literálu typu, jehož typ je unique symbol, musí být readonly.",
+  "A_required_element_cannot_follow_an_optional_element_1257": "Povinný element nemůže následovat po nepovinném elementu.",
+  "A_required_parameter_cannot_follow_an_optional_parameter_1016": "Povinný parametr nemůže následovat po nepovinném parametru.",
+  "A_rest_element_cannot_contain_a_binding_pattern_2501": "Element rest nemůže obsahovat vzor vazby.",
+  "A_rest_element_cannot_follow_another_rest_element_1265": "Element rest nemůže následovat za jiným elementem rest.",
+  

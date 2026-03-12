@@ -1,0 +1,12 @@
+                    stream.advanceUntilChars([_MIN, _MIN, _RAN]); // -->
+                    return finishToken(offset, htmlLanguageTypes_1.TokenType.Comment);
+                case htmlLanguageTypes_1.ScannerState.WithinDoctype:
+                    if (stream.advanceIfChar(_RAN)) {
+                        state = htmlLanguageTypes_1.ScannerState.WithinContent;
+                        return finishToken(offset, htmlLanguageTypes_1.TokenType.EndDoctypeTag);
+                    }
+                    stream.advanceUntilChar(_RAN); // >
+                    return finishToken(offset, htmlLanguageTypes_1.TokenType.Doctype);
+                case htmlLanguageTypes_1.ScannerState.WithinContent:
+                    if (stream.advanceIfChar(_LAN)) { // <
+                        if (!

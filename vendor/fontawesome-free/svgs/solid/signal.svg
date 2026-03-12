@@ -1,0 +1,10 @@
+� a los usuarios si reutilizan su contraseña profesional o educativa.
+      </string>
+
+      <string id="NotifyUnsafeApp">Notificar aplicación no segura</string>
+      <string id="NotifyUnsafeApp_Help">
+Esta configuración de directiva determina si la Protección mejorada contra suplantación de identidad (phishing) en SmartScreen de Microsoft Defender advierte a los usuarios si escriben sus contraseñas profesionales o educativas en Notepad, Winword o aplicaciones de M365 como OneNote, Word, Excel, etc.
+
+Si se habilita esta configuración de directiva, la Protección mejorada contra suplantación de identidad (phishing) en SmartScreen de Microsoft Defender advertirá a los usuarios si almacenan su contraseña en aplicaciones del editor de texto.
+
+Si se deshabilita o no se est

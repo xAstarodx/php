@@ -1,0 +1,25 @@
+          "captures": {
+            "1": {
+              "name": "storage.modifier.ts"
+            },
+            "2": {
+              "name": "storage.modifier.ts"
+            },
+            "3": {
+              "name": "keyword.operator.rest.ts"
+            },
+            "4": {
+              "name": "entity.name.function.ts"
+            },
+            "5": {
+              "name": "keyword.operator.optional.ts"
+            }
+          }
+        },
+        {
+          "match": "(?:\\s*\\b(readonly)\\s+)?(?:\\s*\\b(public|private|protected)\\s+)?(\\.\\.\\.)?\\s*(?<!=|:)([_$[:alpha:]][_$[:alnum:]]*)\\s*(\\??)",
+          "captures": {
+            "1": {
+              "name": "storage.modifier.ts"
+            },
+        

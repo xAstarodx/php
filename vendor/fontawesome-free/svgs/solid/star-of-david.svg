@@ -1,0 +1,18 @@
+place range
+                if (valueEnd > valueStart && text[valueEnd - 1] === text[valueStart]) {
+                    valueContentEnd--;
+                }
+                var wsBefore = getWordStart(text, offset, valueContentStart);
+                var wsAfter = getWordEnd(text, offset, valueContentEnd);
+                range = getReplaceRange(wsBefore, wsAfter);
+                valuePrefix = offset >= valueContentStart && offset <= valueContentEnd ? text.substring(valueContentStart, offset) : '';
+                addQuotes = false;
+            }
+            else {
+                range = getReplaceRange(valueStart, valueEnd);
+                valuePrefix = text.substring(valueStart, offset);
+                addQuotes = true;
+            }
+            if (completionParticipants.length > 0) {
+                var tag = currentTag.toLowerCase();
+                var attribute = currentAttributeName.toLo

@@ -1,0 +1,31 @@
+
+
+    /**
+     * Returns a new array from a set of elements.
+     * @param items A set of elements to include in the new array object.
+     */
+    of<T>(...items: T[]): T[];
+}
+
+interface DateConstructor {
+    new (value: number | string | Date): Date;
+}
+
+interface Function {
+    /**
+     * Returns the name of the function. Function names are read-only and can not be changed.
+     */
+    readonly name: string;
+}
+
+interface Math {
+    /**
+     * Returns the number of leading zero bits in the 32-bit binary representation of a number.
+     * @param x A numeric expression.
+     */
+    clz32(x: number): number;
+
+    /**
+     * Returns the result of 32-bit multiplication of two numbers.
+     * @param x First number
+     * @param 

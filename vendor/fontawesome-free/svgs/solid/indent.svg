@@ -1,0 +1,29 @@
+d.reason };
+        }
+        return result;
+    }
+    function asCodeActionContext(context) {
+        if (context === undefined || context === null) {
+            return context;
+        }
+        let only;
+        if (context.only && Is.string(context.only.value)) {
+            only = [context.only.value];
+        }
+        return proto.CodeActionContext.create(asDiagnostics(context.diagnostics), only);
+    }
+    function asCodeActionKind(item) {
+        if (item === undefined || item === null) {
+            return undefined;
+        }
+        return item.value;
+    }
+    function asCommand(item) {
+        let result = proto.Command.create(item.title, item.command);
+        if (item.arguments) {
+            result.arguments = item.arguments;
+        }
+        return result;
+    }
+    function asCodeLens(item) {
+        let result = proto.CodeLe

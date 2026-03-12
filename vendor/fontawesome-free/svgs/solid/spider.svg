@@ -1,0 +1,11 @@
+1:chrome\installer\util\install_util.cc:324] Windows NT 10.0.22631
+[1508:10744:0728/111344.627:558281:VERBOSE1:chrome\installer\util\shell_util.cc:4216] IsEnterpriseDevice() returning false
+[1508:10744:0728/111344.627:558281:VERBOSE1:chrome\installer\util\shell_util.cc:2655] ShouldCreateDesktopShortcut() returning true
+[1508:10744:0728/111344.627:558281:VERBOSE1:chrome\installer\setup\install.cc:159] Overwriting all-users Desktop "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[1508:10744:0728/111344.657:558312:VERBOSE1:chrome\installer\util\shell_util.cc:4122] Stable: didn't check uninstall policy, or policy disabled
+[1508:10744:0728/111344.657:558312:VERBOSE1:chrome\installer\util\shell_util.cc:4146] Browser/WebView is sticky, uninstall not allowed.
+[1508:10744:0728/111344.658:558312:WARNING:chrome\installer\setup\install.cc:157] Failed: Overwriting (maybe the shortcut doesn't exist?) all-users Desktop "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[1508:10744:0728/111344.658:558312:VERBOSE1:chrome\installer\setup\install.cc:159] Overwriting per-user Quick Launch "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe.
+[1508:10744:0728/111344.659:558312:VERBOSE1:chrome\installer\util\shell_util.cc:4122] Stable: didn't check uninstall policy, or policy disabled
+[1508:10744:0728/111344.659:558312:VERBOSE1:chrome\installer\util\shell_util.cc:4146] Browser/WebView is sticky, uninstall not allowed.
+[1508:10744:0728/111344.700:558343:VERBOSE1:chrome\installer\setup\install.cc:159] Overwriting all-users Start menu "Microsoft Edge" shortcut to C:\Program Files (x86)\Microsoft\

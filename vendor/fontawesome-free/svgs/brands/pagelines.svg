@@ -1,0 +1,5 @@
+e_is_available_only_in_a_non_static_member_of_a_class_or_interface_2526": "Typ this je k dispozici jenom v nestatických členech třídy nebo rozhraní.",
+  "A_top_level_export_modifier_cannot_be_used_on_value_declarations_in_a_CommonJS_module_when_verbatimM_1287": "Modifikátor „export“ nejvyšší úrovně nelze použít pro deklarace hodnot v modulu CommonJS, když je povolený modifikátor „verbatimModuleSyntax“.",
+  "A_tsconfig_json_file_is_already_defined_at_Colon_0_5054": "Soubor tsconfig.json je už v {0} definovaný.",
+  "A_tuple_member_cannot_be_both_optional_and_rest_5085": "Člen řazené kolekce členů nemůže být volitelný a zbytek.",
+  "A_tuple_type_cannot_be_indexed_with_a_negative_value_2514": "Typ řazen

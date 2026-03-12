@@ -1,0 +1,5 @@
+ackage 'Microsoft.VisualStudio.WebDeploy.Msi,version=16.11.34827.16,chip=x64'
+[2530:0005][2025-08-05T11:18:18] Compatible ProductCode '{C5C91AA6-3E83-430E-8B7A-6B790083F28D}' found for package 'Microsoft.Azure.ClientLibs.Msi,version=3.0.2310.23,chip=x64'
+[2530:0005][2025-08-05T11:18:18] Compatible package version is less than or equal to the package version. Code '{C5C91AA6-3E83-430E-8B7A-6B790083F28D}' will not be used for repair/uninstall attempts.
+[2530:0005][2025-08-05T11:18:18] Package Microsoft.Windows.UniversalCRT.Msu.8 is not applicable: La versión actual del sistema operativo “10.0.22631.0” no está en el intervalo de versiones admitido “[6.2,6.3)”.
+[2530:0005][2025-08-05T11:18:18] 

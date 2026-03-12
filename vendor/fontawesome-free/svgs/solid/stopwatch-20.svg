@@ -1,0 +1,32 @@
+& scanner.getTokenEnd() === offset) {
+                        return "$0</".concat(node.tag, ">");
+                    }
+                    token = scanner.scan();
+                }
+            }
+        }
+        else if (char === '/') {
+            var node = htmlDocument.findNodeBefore(offset);
+            while (node && node.closed && !(node.endTagStart && (node.endTagStart > offset))) {
+                node = node.parent;
+            }
+            if (node && node.tag) {
+                var scanner = createScanner(document.getText(), node.start);
+                var token = scanner.scan();
+                while (token !== TokenType.EOS && scanner.getTokenEnd() <= offset) {
+                    if (token === TokenType.EndTagOpen && scanner.getTokenEnd() === offset) {
+                        return "".concat(node.tag, ">");
+                    }
+                    token = scanner.scan();
+                }
+            }
+        }
+        return null;
+    };
+    HTMLCompletion.prototype.convertCompletionList = function (list) {
+        if (!this.doesSupportMarkdown()) {
+            list.items.forEach(function (item) {
+                if (item.documentation && typeof item.documentation !== 'string') {
+                    item.documentation = {
+                        kind: 'plaintext',
+                    

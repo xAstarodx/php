@@ -1,0 +1,24 @@
+ing.exe"
+},{"productName": "firefox developer edition",
+"originalFileName": "crashreporter.exe",
+"companyName": "mozilla foundation",
+"binProductVersion": "121.0.0.8740",
+"binFileVersion": "121.0.0.8740",
+"path": "%programfiles%\\firefox developer edition\\crashreporter.exe"
+},{"productName": "firefox developer edition",
+"originalFileName": "default-browser-agent.exe",
+"companyName": "mozilla foundation",
+"binProductVersion": "121.0.0.8740",
+"binFileVersion": "121.0.0.8740",
+"path": "%programfiles%\\firefox developer edition\\default-browser-agent.exe"
+},{"productName": "firefox developer edition",
+"originalFileName": "helper.exe",
+"companyName": "mozilla.org",
+"binProductVersion": "1.0.0.0",
+"binFileVersion": "1.0.0.0",
+"path": "%programfiles%\\firefox developer edition\\uninstall\\helper.exe"
+}]
+},{"path": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{6F320B93-EE3C-4826-85E0-ADF79F8D4C61}",
+"programId": "0000c180dfe2fe361435faa894cc2d8af3ef0000ffff",
+"compatFlags": "0",
+"restoreAction": "RootDirPath|C:\\Program Files (x86)\\Micr

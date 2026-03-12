@@ -1,0 +1,189 @@
+quest will not be executed after import"
+				},
+				"thunder-client.saveTokenPerEnvironment": {
+					"type": "boolean",
+					"default": false,
+					"scope": "resource",
+					"markdownDescription": "Save OAuth 2 token based on environment, So this will allow to save `different access tokens` for `dev & prod` environments"
+				},
+				"thunder-client.sidebar.defaultTab": {
+					"type": "string",
+					"enum": [
+						"Activity",
+						"Collections",
+						"Env"
+					],
+					"default": "Activity",
+					"scope": "resource",
+					"markdownDescription": "Sidebar default active tab, default is `Activity`"
+				},
+				"thunder-client.sidebar.showActivityFromCollection": {
+					"type": "boolean",
+					"default": false,
+					"scope": "resource",
+					"markdownDescription": "Show Requests executed from collection in `Activity Tab`"
+				},
+				"thunder-client.sidebar.layout": {
+					"type": "string",
+					"enum": [
+						"standard",
+						"compact"
+					],
+					"default": "standard",
+					"scope": "resource",
+					"markdownDescription": "The default sidebar layout is `standard`. The `compact` layout will hide the request date section in `sidebar`"
+				},
+				"thunder-client.activeEnvironmentSelection": {
+					"type": "string",
+					"enum": [
+						"Save To File",
+						"Save To Local Memory"
+					],
+					"default": "Save To File",
+					"scope": "resource",
+					"markdownDescription": "The default option for Active Environment selection is `Save To File`. The `Save To Local Memory` option will save the changes to the `Active Environment` in local memory"
+				},
+				"thunder-client.sidebar.treeIndentation": {
+					"type": "number",
+					"enum": [
+						0,
+						5,
+						10
+					],
+					"default": 0,
+					"scope": "resource",
+					"markdownDescription": "Sidebar Collections tree indentation, `select 0` for default padding, `select 5 or 10` to add extra 5px or 10px padding"
+				},
+				"thunder-client.requestTimeout": {
+					"type": "number",
+					"default": 0,
+					"scope": "resource",
+					"markdownDescription": "Request Timeout in milliseconds, 0 means no timeout"
+				},
+				"thunder-client.defaultHeaders": {
+					"type": "array",
+					"default": [
+						{
+							"name": "Accept",
+							"value": "*/*"
+						},
+						{
+							"name": "User-Agent",
+							"value": "Thunder Client (https://www.thunderclient.com)"
+						}
+					],
+					"scope": "resource",
+					"markdownDescription": "[[Subscription Required](https://www.thunderclient.com/pricing)] Provide values for Default Headers for the Request",
+					"items": {
+						"type": "object",
+						"default": {
+							"name": "",
+							"value": ""
+						},
+						"description": "HTTP Header Values",
+						"properties": {
+							"name": {
+								"type": "string",
+								"description": "Header Name e.g: Accept"
+							},
+							"value": {
+								"type": "string",
+								"description": "Header Value"
+							}
+						}
+					}
+				},
+				"thunder-client.testValueColumnWidth": {
+					"type": "number",
+					"default": 30,
+					"minimum": 10,
+					"maximum": 50,
+					"scope": "resource",
+					"markdownDescription": "Please provide `Test Value` column width in `percentage`, The value should be between `10 to 50`. The default value is `30`"
+				},
+				"thunder-client.certificates": {
+					"type": "array",
+					"default": [],
+					"scope": "resource",
+					"markdownDescription": "List of ssl certificates for hosts",
+					"items": {
+						"type": "object",
+						"default": {},
+						"description": "SSL Certifcate paths for hosts",
+						"properties": {
+							"host": {
+								"type": "string",
+								"description": "host name e.g: thunderclient.com"
+							},
+							"certPath": {
+								"type": "string",
+								"description": "the path of certificate file e.g: ssl/client_cert.pem"
+							},
+							"keyPath": {
+								"type": "string",
+								"description": "the path of client key"
+							},
+							"pfxPath": {
+								"type": "string",
+								"description": "the path of PFX or PKCS12 encoded private key"
+							},
+							"passphrase": {
+								"type": "string",
+								"description": "the passphrase to decrypt the client key"
+							}
+						}
+					}
+				}
+			}
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "thunder-client",
+					"title": "Thunder Client",
+					"icon": "images/thunder-client.svg"
+				}
+			]
+		},
+		"views": {
+			"thunder-client": [
+				{
+					"type": "webview",
+					"id": "thunder-client-sidebar",
+					"name": "Thunder Client",
+					"contextualTitle": "Thunder Client",
+					"icon": "images/thunder-client.svg"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "thunder-client.new-request",
+				"title": "New Request",
+				"category": "Thunder Client"
+			},
+			{
+				"command": "thunder-client.run-last-request",
+				"title": "Run Last Request",
+				"category": "Thunder Client"
+			},
+			{
+				"command": "thunder-client.change-env",
+				"title": "Change Environment",
+				"category": "Thunder Client"
+			},
+			{
+				"command": "thunder-client.reload-sidebar",
+				"title": "Reload Data",
+				"icon": "$(refresh)",
+				"category": "Thunder Client"
+			},
+			{
+				"command": "thunder-client.open-settings",
+				"title": "Extension Settings",
+				"category": "Thunder Client"
+			},
+			{
+				"command": "thunder-client.clear-vault-cache",
+				"title": "Clear Secrets Cache",
+				"cate

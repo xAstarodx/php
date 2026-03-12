@@ -1,0 +1,7 @@
+\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}
+[0801/133859.361:VERBOSE1:chrome\installer\util\set_reg_value_work_item.cc:196] Successfully wrote value Google Chrome into Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}
+[0801/133859.361:VERBOSE1:chrome\installer\util\set_reg_value_work_item.cc:200] Successfully wrote into Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}
+[0801/133859.361:VERBOSE1:chrome\installer\util\set_reg_value_work_item.cc:196] Successfully wrote value 43,0,0,0 into Software\Microsoft\Active Setup\Installed Components\{8A69D345-D564-463c-AFF1-A69D9E530F96}
+[0801/133859.361:VERBOSE1:chrome\installer\util\set_reg_value_work_item.cc:196] Successfully wrote value "C:\Program Files\Google\Chrome\Application\138.0.7204.184\Installer\setup.exe" --on-os-upgrade --channel=stable --system-level --verbose-logging %1 into Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\on-os-upgrade
+[0801/133859.361:VERBOSE1:chrome\installer\util\delete_reg_value_work_item.cc:43] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1-A69D9E530F96}\Commands\on-os-upgrade or Value: SendsPings does not exist.
+[0801/133859.361:VERBOSE1:chrome\installer\util\delete_reg_value_work_item.cc:43] (delete value) Key: Software\Google\Update\Clients\{8A69D345-D564-463c-AFF1

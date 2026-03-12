@@ -1,0 +1,7 @@
+onState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.Tools.HostX64.TargetARM,version=14.44.35214,chip=x64, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.Premium.Tools.HostX64.TargetX64,version=14.44.35208,chip=x64, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.Premium.Tools.HostX64.TargetARM,version=14.44.35208,chip=x64, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.Tools.HostX86.TargetX86,version=14.44.35214, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.Tools.Hostx86.Targetarm,version=14.44.35214, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: 

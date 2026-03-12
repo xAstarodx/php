@@ -1,0 +1,4 @@
+ram Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe to backup path C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir8432_1677697131\msedge_proxy.exe
+[8432:3184:0728/111344.521:558171:VERBOSE1:chrome\installer\util\copy_tree_work_item.cc:107] Copied source C:\Program Files (x86)\Microsoft\Edge\Application\138.0.3351.109\msedge_proxy.exe to destination C:\Program Files (x86)\Microsoft\Edge\Application\msedge_proxy.exe
+[8432:3184:0728/111344.522:558171:VERBOSE1:chrome\installer\util\copy_tree_work_item.cc:87] Moved destination C:\Program Files (x86)\Microsoft\Edge\Application\pwahelper.exe to backup path C:\Program Files (x86)\Microsoft\Edge\Temp\scoped_dir8432_728182665\pwahelper.exe
+[8432:3184:0728/111344.524:558171:VERBOSE1:chrome\installer\util\copy_tree_work_item.cc:107] Copied source C:\Program Files (x86)\Microso

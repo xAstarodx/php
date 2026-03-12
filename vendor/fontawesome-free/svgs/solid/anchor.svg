@@ -1,0 +1,6 @@
+ocessing file /Microsoft.VisualStudio.Platform.VSEditor.dll
+[1898:000b][2025-08-05T10:54:46] Started: Copying file /Microsoft.VisualStudio.Platform.VSEditor.dll to C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\Editor\Microsoft.VisualStudio.Platform.VSEditor.dll
+[1898:000b][2025-08-05T10:54:46] Completed: Copying file /Microsoft.VisualStudio.Platform.VSEditor.dll to C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\Editor\Microsoft.VisualStudio.Platform.VSEditor.dll
+[1898:000b][2025-08-05T10:54:46] Timestamp updated for file 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\Editor\Microsoft.VisualStudio.Platform.VSEditor.dll'.
+[1898:000b][2025-08-05T10:54:46] Queueing C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\Editor\Microsoft.VisualStudio.Platform.VSEditor.dll for X64 ngen
+[1898:000b][2025-08-05T10:54:46] Successfully queued file '/Microsoft.VisualStudio.Platform.VSEditor.dll

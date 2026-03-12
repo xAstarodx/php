@@ -1,0 +1,6 @@
+e roots, cannot be uninstalled
+07/29/2025 09:21:58.071 [5476]: ngen returning 0x00000000
+07/29/2025 09:21:58.085 [11724]: Command line: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v4.0.30319_64\vbc\a9fdf62146f40b63bff24c52c54fffed\vbc.ni.exe /noroot /LegacyServiceBehavior 
+07/29/2025 09:21:58.277 [11724]: Native image used by one or more roots, cannot be uninstalled
+07/29/2025 09:21:58.287 [11724]: ngen returning 0x00000000
+07/29/2025 09:21:58.302 [6704]: Command line: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v4.0.30319_64\vbc\f4387e688181449c6979e5676df8f913\vbc.ni.exe /noroot /LegacyServiceBeha

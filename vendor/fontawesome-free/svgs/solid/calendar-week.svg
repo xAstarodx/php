@@ -1,0 +1,15 @@
+dIndex);
+                const result = {
+                    resultId: this.id,
+                    edits: [
+                        { start: startIndex, deleteCount: prevDataLength - endIndex - startIndex, data: newData }
+                    ]
+                };
+                return result;
+            }
+            else if (startIndex < dataLength) {
+                return { resultId: this.id, edits: [
+                        { start: startIndex, deleteCount: 0, data: this._data.slice(startIndex) }
+                    ] };
+            }
+            else if (startIndex < prevDataLe

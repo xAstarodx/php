@@ -1,0 +1,7 @@
+ExecuteAction: None, PlannedActionForDependency: Remove.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.Net.4.7.1.SDK.Resources,version=4.7.2558.2,language=es-ES, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Dependency action plan - PackageExecuteAction: None, PlannedActionForDependency: Remove.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.Net.4.7.SDK.Resources,version=4.7.2046.4,language=es-ES, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Dependency action plan - PackageExecuteAction: None, PlannedActionForDependency: Remove.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.Net.4.7.SDK,version=4.7.2046.4, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30

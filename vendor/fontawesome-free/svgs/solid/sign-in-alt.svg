@@ -1,0 +1,7 @@
+ type:512
+(4928)[2025-10-30 13:56:45.788182][LM_DEBUG   ]  EventManager::subscribe WMIEventHandler for events
+(4928)[2025-10-30 13:56:45.788182][LM_DEBUG   ]  GmsService: sending message to WMIEventHandler
+(4928)[2025-10-30 13:56:45.788182][LM_DEBUG   ]  GmsService: sending message - found destination service
+(4928)[2025-10-30 13:56:45.788182][LM_DEBUG   ]  EventManager::HandleAceMessage type:512
+(4928)[2025-10-30 13:56:45.788182][LM_DEBUG   ]  EventManager::subscribe WinLogEventHandler for events
+(4928)[2025-10-30 13:56:45.788182][LM_DEBUG   ]  GmsService: sending message to WinLogE

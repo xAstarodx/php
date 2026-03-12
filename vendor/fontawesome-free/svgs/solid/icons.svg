@@ -1,0 +1,38 @@
+ent: asTextDocumentIdentifier(textDocument)
+        };
+        if (includeContent) {
+            result.text = textDocument.getText();
+        }
+        return result;
+    }
+    function asTextDocumentSaveReason(reason) {
+        switch (reason) {
+            case code.TextDocumentSaveReason.Manual:
+                return proto.TextDocumentSaveReason.Manual;
+            case code.TextDocumentSaveReason.AfterDelay:
+                return proto.TextDocumentSaveReason.AfterDelay;
+            case code.TextDocumentSaveReason.FocusOut:
+                return proto.TextDocumentSaveReason.FocusOut;
+        }
+        return proto.TextDocumentSaveReason.Manual;
+    }
+    function asWillSaveTextDocumentParams(event) {
+        return {
+            textDocument: asTextDocumentIdentifier(event.document),
+            reason: asTextDocumentSaveReason(event.reason)
+        };
+    }
+    function asDidCreateFilesParams(event) {
+        return {
+            files: event.files.map((fileUri) => ({
+                uri: _uriConverter(fileUri),
+            })),
+        };
+    }
+    function asDidRenameFilesParams(event) {
+        return {
+            files: event.files.map((file) => ({
+                oldUri: _uriConverter(file.oldUri),
+                newUri: _uriConverter(file.newUri),
+            })),
+      

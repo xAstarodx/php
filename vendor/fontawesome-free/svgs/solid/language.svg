@@ -1,0 +1,16 @@
+sage type:512
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EventManager::subscribe WMIEventHandler for events
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  GmsService: sending message to WMIEventHandler
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  GmsService: sending message - found destination service
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EventManager::HandleAceMessage type:512
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EventManager::subscribe WinLogEventHandler for events
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  GmsService: sending message to WinLogEventHandler
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  GmsService: sending message - found destination service
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EVMG: <-- handle_output
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EVMG: --> handle_output
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  handle_output: EventManager
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EVMG: <-- handle_output
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EVMG: --> handle_output
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  handle_output: EventManager
+(4564)[2025-11-27 13:58:31.098325][LM_DEBUG   ]  EVMG: <-- handle_output
+(

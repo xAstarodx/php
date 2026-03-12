@@ -1,0 +1,6 @@
+[0ac0:0004][2025-08-05T11:19:02] Opening the package for processing
+[0ac0:0004][2025-08-05T11:19:02] Using package payload to get the embedded manifest
+[0ac0:0004][2025-08-05T11:19:02] Getting list of files within the package
+[0ac0:0004][2025-08-05T11:19:02] Processing file /Contents/Msbuild/Current/Bin/amd64/es/Microsoft.Build.CPPTasks.Common.resources.dll
+[0ac0:0004][2025-08-05T11:19:02] Started: Copying file /Contents/Msbuild/Current/Bin/amd64/es/Microsoft.Build.CPPTasks.Common.resources.dll to C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Msbuild\Current\Bin\amd64\es\Microsoft.Build.CPPTasks.Common.resources.dll
+[0ac0:0004][2025-08-05T11:19:02] Completed: Copying file /Contents/Msbuild/Current/Bin/amd64/es/Microsoft.Build.CPPTasks.Common.resources.dll to C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Msbuild\Current\Bin\amd64\es\Microsoft.Build.CPPTasks.Common.reso

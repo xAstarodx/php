@@ -1,0 +1,14 @@
+* CharCode.z */)
+            || (code >= 65 /* CharCode.A */ && code <= 90 /* CharCode.Z */)
+            || (code >= 48 /* CharCode.Digit0 */ && code <= 57 /* CharCode.Digit9 */)
+            || code === 45 /* CharCode.Dash */
+            || code === 46 /* CharCode.Period */
+            || code === 95 /* CharCode.Underline */
+            || code === 126 /* CharCode.Tilde */
+            || (isPath && code === 47 /* CharCode.Slash */)
+            || (isAuthority && code === 91 /* CharCode.OpenSquareBracket */)
+            || (isAuthority && code === 93 /* CharCode.CloseSquareBracket */)
+            || (isAuthority && code === 58 /* CharCode.Colon */)) {
+            // check if we are delaying native encode
+            if (nativeEncodePos !== -1) {
+                res += encodeURIComponent(uriComponent.substring(nativeEncodePo

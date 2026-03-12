@@ -1,0 +1,22 @@
+nalFileName": "dotnet-sdk-9.0.300-win-x64.exe",
+"companyName": "microsoft corporation",
+"binProductVersion": "9.3.25.25206",
+"binFileVersion": "9.3.25.25206",
+"path": "%programdata%\\package cache\\{b93b85ca-5596-4296-af37-83ff14d56236}\\dotnet-sdk-9.0.300-win-x64.exe"
+}]
+},{"path": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Proton VPN_is1",
+"programId": "00008d0d6a5493e8472d1eb4975d33e913aa0000ffff",
+"compatFlags": "256",
+"restoreAction": "RootDirPath|C:\\Program Files\\Proton\\VPN\\",
+"files" : [{"aumid": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Proton\\VPN\\ProtonVPN.Launcher.exe",
+"productName": "proton vpn",
+"originalFileName": "protonvpn.launcher.dll",
+"companyName": "protonvpn",
+"binProductVersion": "3.2.11.0",
+"binFileVersion": "3.2.11.0",
+"path": "%programfiles%\\proton\\vpn\\protonvpn.launcher.exe"
+},{"aumid": "Proton.VPN"
+},{"productName": "openvpn",
+"originalFileName": "openvpn.exe",
+"companyName": "the openvpn project",
+"b

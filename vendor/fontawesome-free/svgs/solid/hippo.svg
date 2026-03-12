@@ -1,0 +1,15 @@
+     case htmlLanguageTypes_1.TokenType.StartTagOpen:
+                    var child = new Node(scanner.getTokenOffset(), text.length, [], curr);
+                    curr.children.push(child);
+                    curr = child;
+                    break;
+                case htmlLanguageTypes_1.TokenType.StartTag:
+                    curr.tag = scanner.getTokenText();
+                    break;
+                case htmlLanguageTypes_1.TokenType.StartTagClose:
+                    if (curr.parent) {
+                        curr.end = scanner.getTokenEnd(); // might be later set to end tag position
+                        if (scanner.getTokenLength()) {
+                            curr.startTagEnd = scanner.getTokenEnd();
+                            if (curr.tag && (0, fact_1.isVoidElement)(curr.tag)) {
+                     

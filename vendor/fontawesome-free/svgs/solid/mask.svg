@@ -1,0 +1,5 @@
+edAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.ATL.X64.Spectre,version=14.36.32532, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.ATL.X64.Spectre.base,version=14.36.32532, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.CRT.Redist.ARM64.OneCore.Desktop.spectre,version=14.36.32547, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.CRT.Redist.ARM64.OneCore.Desktop.spectre.base,version=14.36.32547, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedActi

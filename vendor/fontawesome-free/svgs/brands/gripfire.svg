@@ -1,0 +1,19 @@
+lback data done.
+Calling PortDriverStandard secondary callback.
+Return from PortDriverStandard secondary callback.
+Writing PortDriverStandard secondary callback data.
+Writing PortDriverStandard secondary callback data done.
+Calling Wdf01000 secondary callback.
+Return from Wdf01000 secondary callback.
+Writing Wdf01000 secondary callback data.
+Writing Wdf01000 secondary callback data done.
+Calling blackbox - CI secondary callback.
+Return from blackbox - CI secondary callback.
+Writing blackbox - CI secondary callback data.
+Writing blackbox - CI secondary callback data done.
+Calling blackbox - Winlogon secondary callback.
+Return from blackbox - Winlogon secondary callback.
+Writing blackbox - Winlogon secondary callback data.
+Writing blackbox - Winlogon secondary callback data done.
+Calling blackbox - NTFS secondary callback.
+Return from blackbo

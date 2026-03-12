@@ -1,0 +1,19 @@
+          }
+                    if (stream.advanceIfChar(_EQS)) {
+                        state = htmlLanguageTypes_1.ScannerState.BeforeAttributeValue;
+                        return finishToken(offset, htmlLanguageTypes_1.TokenType.DelimiterAssign);
+                    }
+                    state = htmlLanguageTypes_1.ScannerState.WithinTag;
+                    return internalScan(); // no advance yet - jump to WithinTag
+                case htmlLanguageTypes_1.ScannerState.BeforeAttributeValue:
+                    if (stream.skipWhitespace()) {
+                        return finishToken(offset, htmlLanguageTypes_1.TokenType.Whitespace);
+                    }
+                    var attributeValue = stream.advanceIfRegExp(/^[^\s"'`=<>]+/);
+                    if (attributeValue.length > 0) {
+                        if (stream.peekChar() === _RAN && stream.peekChar(-1) === _FSL) { // <foo bar=http://foo/>
+                            stream.goBack(1);
+                            attributeValue = attributeValue.substr(0, attributeValue.length - 1);
+                        }
+                        if (lastAttributeName === 'type') {
+                            lastTypeValue = 

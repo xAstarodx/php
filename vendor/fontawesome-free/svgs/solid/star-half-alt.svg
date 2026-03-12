@@ -1,0 +1,18 @@
+See #23236.
+                replaceEnd++;
+            }
+            var currentAttribute = text.substring(nameStart, nameEnd);
+            var range = getReplaceRange(nameStart, replaceEnd);
+            var value = '';
+            if (!isFollowedBy(text, nameEnd, ScannerState.AfterAttributeName, TokenType.DelimiterAssign)) {
+                var defaultValue = (_a = settings === null || settings === void 0 ? void 0 : settings.attributeDefaultValue) !== null && _a !== void 0 ? _a : 'doublequotes';
+                if (defaultValue === 'empty') {
+                    value = '=$1';
+                }
+                else if (defaultValue === 'singlequotes') {
+                    value = '=\'$1\'';
+                }
+                else {
+                    value = '="$1"';
+                }
+     

@@ -1,0 +1,15 @@
+ge, codeSnippet),
+                            insertTextFormat: htmlLanguageTypes_1.InsertTextFormat.Snippet,
+                            command: command
+                        });
+                    });
+                });
+                collectDataAttributesSuggestions(range, seenAttributes);
+                return result;
+            }
+            function collectDataAttributesSuggestions(range, seenAttributes) {
+                var dataAttr = 'data-';
+                var dataAttributes = {};
+                dataAttributes[dataAttr] = "".concat(dataAttr, "$1=\"$2\"");
+                function addNodeDataAttributes(node) {
+                    node.attributeNames.forEach(function (a

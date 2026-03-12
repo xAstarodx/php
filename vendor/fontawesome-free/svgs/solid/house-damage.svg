@@ -1,0 +1,17 @@
+ scanner.getTokenEnd() === offset) {
+                            return "$0</".concat(node.tag, ">");
+                        }
+                        token = scanner.scan();
+                    }
+                }
+            }
+            else if (char === '/') {
+                var node = htmlDocument.findNodeBefore(offset);
+                while (node && node.closed && !(node.endTagStart && (node.endTagStart > offset))) {
+                    node = node.parent;
+                }
+                if (node && node.tag) {
+                    var scanner = (0, htmlScanner_1.createScanner)(document.getText(), node.start);
+                    var token = scanner.scan();
+                    while (token !== htmlLanguageTypes_1.TokenType.EOS && scanner.getTokenEnd() <= offset) {
+                        if (token === htmlLanguageTypes_1

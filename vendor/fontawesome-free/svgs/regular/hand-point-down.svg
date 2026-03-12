@@ -1,0 +1,8 @@
+ behind.
+[37e0:0003][2025-08-05T11:18:37] Compatible ProductCode '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' found for package 'Microsoft.VisualStudio.Community.Msi,version=16.11.34930.59'
+[37e0:0003][2025-08-05T11:18:37] Compatible package version is less than or equal to the package version. Code '{5C127D2C-BC0B-44B8-A1A5-34E9E7A116FC}' will not be used for repair/uninstall attempts.
+[37e0:0003][2025-08-05T11:18:37] Compatible ProductCode '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' found for package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES'
+[37e0:0003][2025-08-05T11:18:37] Compatible package is not installed. Code '{CAF2AA35-4C6E-428B-894A-927CADF0CFFA}' will not be used for repair/uninstall attempts.
+[37e0:0003][2025-08-05T11:18:37] Warning: Windows Installer found the package 'Microsoft.VisualStudio.Community.Msi.Resources,version=16.10.31213.239,language=es-ES' superseded but corresponding compatible package information was not found. Attempts to repair will be skipped and that to uninstall may leave the cache behind.
+[37e0:0003][2025-08-05T11:18:37] Compatible ProductCode '{904BF14E-2939-4EE9-B3F9-447DACCC775A}' found for package 'Microsoft.Windows.UniversalCRT.Tools.Msi,version=10.0.26624,chip=x86'
+[37e0:0003][2025-08-05T11:18:37] Compatible

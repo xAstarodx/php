@@ -1,0 +1,4 @@
+oft\Edge\Application\138.0.3351.109\Installer\setup.exe" --edge-vbs-enable --system-level --verbose-logging --msedge --channel=stable into Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable
+[8432:3184:0728/111344.575:558218:VERBOSE1:chrome\installer\util\delete_reg_value_work_item.cc:43] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: SendsPings does not exist.
+[8432:3184:0728/111344.575:558218:VERBOSE1:chrome\installer\util\delete_reg_value_work_item.cc:43] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B008-4CBD-B6D2-8C97FE7E9062}\Commands\edge-vbs-enable or Value: WebAccessible does not exist.
+[8432:3184:0728/111344.575:558218:VERBOSE1:chrome\installer\util\delete_reg_value_work_item.cc:43] (delete value) Key: Software\Microsoft\EdgeUpdate\Clients\{56EB18F8-B

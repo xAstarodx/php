@@ -1,0 +1,6 @@
+Package: Microsoft.VC.14.44.17.14.MFC.Redist.ARM.Spectre,version=14.44.35211, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.MFC.MBCS.arm.Spectre,version=14.44.35208, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.MFC.ARM.Spectre,version=14.44.35208, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.MFC.X86,version=14.44.35208, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25] Package: Microsoft.VC.14.44.17.14.MFC.X64,version=14.44.35208, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0370:0001][2025-08-07T10:30:25]

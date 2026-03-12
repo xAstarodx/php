@@ -1,0 +1,12 @@
+llectTagSuggestions(offset, endPos);
+                        }
+                        break;
+                    case htmlLanguageTypes_1.TokenType.StartTag:
+                        if (scanner.getTokenOffset() <= offset && offset <= scanner.getTokenEnd()) {
+                            return collectOpenTagSuggestions(scanner.getTokenOffset(), scanner.getTokenEnd());
+                        }
+                        currentTag = scanner.getTokenText();
+                        break;
+                    case htmlLanguageTypes_1.TokenType.AttributeName:
+                        if (scanner.getTokenOffset() <= offset && offset <= scanner.getTokenEnd()) {
+                            return

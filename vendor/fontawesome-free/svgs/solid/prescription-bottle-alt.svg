@@ -1,0 +1,8 @@
+-02-09 11:48:16.364037][LM_DEBUG   ]  HistoryEventHandler
+(4700)[2026-02-09 11:48:16.364037][LM_DEBUG   ]  HEVH: <-- initSubService
+(4700)[2026-02-09 11:48:16.364037][LM_DEBUG   ]  GmsService: sending message to EventManager
+(4700)[2026-02-09 11:48:16.364037][LM_DEBUG   ]  GmsService: sending message - found destination service
+(4700)[2026-02-09 11:48:16.364037][LM_DEBUG   ]  CONF: <-- StartAceService
+(4700)[2026-02-09 11:48:16.364037][LM_DEBUG   ]  CONF: --> StartAceService
+(4700)[2026-02-09 11:48:16.364037][LM_DEBUG   ]  StartAceService: WMIEventHandler
+(4700)[2026-02-09 11:48:16.364037][LM_

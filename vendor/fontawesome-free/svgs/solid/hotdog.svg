@@ -1,0 +1,28 @@
+forEach(function (provider) {
+                    provider.provideTags().forEach(function (tag) {
+                        result.items.push({
+                            label: tag.name,
+                            kind: htmlLanguageTypes_1.CompletionItemKind.Property,
+                            documentation: (0, dataProvider_1.generateDocumentation)(tag, undefined, doesSupportMarkdown),
+                            textEdit: htmlLanguageTypes_1.TextEdit.replace(range, tag.name),
+                            insertTextFormat: htmlLanguageTypes_1.InsertTextFormat.PlainText
+                        });
+                    });
+                });
+                return result;
+            }
+            function getLineIndent(offset) {
+                var start = offset;
+                while (start > 0) {
+                    var ch = text.charAt(start - 1);
+                    if ("\n\r".indexOf(ch) >= 0) {
+                        return text.substring(start, offset);
+                    }
+                    if (!isWhiteSpace(ch)) {
+                        return null;
+                    }
+                    start--;
+                }
+                return text.substring(0, offset);
+            }
+            f

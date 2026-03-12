@@ -1,0 +1,29 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+(function (factory) {
+    if (typeof module === "object" && typeof module.exports === "object") {
+        var v = factory(require, exports);
+        if (v !== undefined) module.exports = v;
+    }
+    else if (typeof define === "function" && define.amd) {
+        define(["require", "exports", "vscode-nls", "../htmlLanguageTypes"], factory);
+    }
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.createScanner = void 0;
+    var nls = require("vscode-nls");
+    var htmlLanguageTypes_1 = require("../htmlLanguageTypes");
+    var localize = nls.loadMessageBundle();
+    var MultiLineStream = /** @class */ (function () {
+        function MultiLineStream(source, position) {
+            this.source = source;
+            this.len = source.length;
+            this.position = position;
+        }
+        MultiLineStream.prototype.eos = function () {
+            return this.len <= this.position;
+        };
+        MultiLineStream.prototype.getSource = function 

@@ -1,0 +1,21 @@
+0-27 11:44:30.213145][LM_DEBUG   ]  STEH: <-- handle_output
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  STEH: --> handle_output
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  handle_output: StatusEventHandler
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  STEH: <-- handle_output
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  CONF: --> handle_output
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  handle_output: Configurator
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  CONF: --> Configurator::HandleAceMessage
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  SERVICE_STATUS_CHANGED
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  serviceName: StatusEventHandler, status: 1
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  CONF: --> ChangeServiceState
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  AsyncActivationManager: refreshing on operation 0, waiting 8
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  CONF: --> StartAceService
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  StartAceService: PortForwardingService
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  Starting: PortForwardingService
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  PFWS: started
+(4876)[2025-10-27 11:44:30.213145][LM_DEBUG   ]  PFWS: --> initSubService
+(4876)[2025-10-27 11:44:30.220151][LM_DEBUG   ]  PortForwardingService
+(4876)[2025-10-27 11:44:30.220151][LM_DEBUG   ]  PFWS: <-- initSubService
+(4876)[2025-10-27 11:44:30.220151][LM_DEBUG   ]  PFWS: --> startSubService
+(4876)[2025-10-27 11:44:30.220151][LM_DEBUG   ]  GmsService: sending message to Configurator
+(4876)[2025-10-27 11:44:30.220151][LM_DEBUG

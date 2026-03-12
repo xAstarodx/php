@@ -1,0 +1,24 @@
+stic !== undefined && protocolDiagnostic.data !== undefined) {
+            result.data = protocolDiagnostic.data;
+        }
+        const code = asDiagnosticCode(item.code);
+        if (protocolDiagnostic_1.DiagnosticCode.is(code)) {
+            if (protocolDiagnostic !== undefined && protocolDiagnostic.hasDiagnosticCode) {
+                result.code = code;
+            }
+            else {
+                result.code = code.value;
+                result.codeDescription = { href: code.target };
+            }
+        }
+        else {
+            result.code = code;
+        }
+        if (Is.number(item.severity)) {
+            result.severity = asDiagnosticSeverity(item.severity);
+        }
+        if (Array.isArray(item.tags)) {
+            result.tags = asDiagnosticTags(item.tags);
+        }
+        if (item.relatedInformation) {
+            result.relatedInformation = asRelate

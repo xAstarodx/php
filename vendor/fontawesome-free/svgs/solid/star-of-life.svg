@@ -1,0 +1,22 @@
+ertTextFormat.PlainText
+                        });
+                    }
+                }
+            }
+            return result;
+        }
+        function suggestDoctype(replaceStart, replaceEnd) {
+            var range = getReplaceRange(replaceStart, replaceEnd);
+            result.items.push({
+                label: '!DOCTYPE',
+                kind: CompletionItemKind.Property,
+                documentation: 'A preamble for an HTML document.',
+                textEdit: TextEdit.replace(range, '!DOCTYPE html>'),
+                insertTextFormat: InsertTextFormat.PlainText
+            });
+        }
+        var token = scanner.scan();
+        while (token !== TokenType.EOS && scanner.getTokenOffset() <= offset) {
+            switch (token) {
+                case TokenType.StartTagOpen:
+                   

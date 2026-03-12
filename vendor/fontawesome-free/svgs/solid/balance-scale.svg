@@ -1,0 +1,8 @@
+8]: ngen returning 0x00000000
+07/30/2025 12:05:40.837 [8004]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v4.0.30319_32\Microsoft.W28bcd8b7#\4f131829209ef6b9f7cd86cb056a81b3\Microsoft.WebTools.Languages.Html.Editor.ni.dll /noroot /LegacyServiceBehavior 
+07/30/2025 12:05:41.035 [8004]: Native image used by one or more roots, cannot be uninstalled
+07/30/2025 12:05:41.044 [8004]: ngen returning 0x00000000
+07/30/2025 12:05:41.061 [14200]: Command line: C:\Windows\Microsoft.NET\Framework\v4.0.30319\ngen.exe uninstall C:\Windows\assembly\NativeImages_v4.0.30319_32\Microsoft.W3bb852e8#\65f684458af9551fe1bcd79a9238da5a\Microsoft.WebTools.Shared.VS.ni.dll /noroot /LegacyServiceBehavior 
+07/30/2025 12:05:41.257 [14200]: Native image used by one or more roots, cannot be uninstalled
+07/30/2025 12:05:41.267 [14200]: ngen returning 0x00000000
+07/30/2025 12:05:41.283 [13580]: Command line: C:\Windows\Microsoft.

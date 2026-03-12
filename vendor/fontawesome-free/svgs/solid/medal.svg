@@ -1,0 +1,6 @@
+32543, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.CRT.arm.Desktop.spectre.base,version=14.36.32543, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.CLI.ARM,version=14.36.32532, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.CLI.ARM.base,version=14.36.32532, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.ATL.ARM.Spectre,version=14.36.32532, CurrentState: Absent, RequestedState: Absent, DetectionState: Absent, PlannedAction: None.
+[0b88:0001][2025-08-05T11:50:53] Package: Microsoft.VC.14.36.17.6.
