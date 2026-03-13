@@ -1,21 +1,21 @@
 {
-    "name": "PHP Dev Environment",
+    "name": "PHP & MySQL Dev Environment",
     "image": "mcr.microsoft.com/devcontainers/php:8.3",
     "features": {
-        "ghcr.io/devcontainers/features/common-utils:1": {}
+        "ghcr.io/devcontainers/features/mysql:1": {
+            "version": "8.0"
+        }
     },
     "customizations": {
         "vscode": {
             "extensions": [
                 "xdebug.php-debug",
                 "bmewburn.vscode-intelephense-client",
-                "ritwickdey.LiveServer"
-            ],
-            "settings": {
-                "php.debug.executablePath": "/usr/local/bin/php"
-            }
+                "mtxr.sqltools",
+                "mtxr.sqltools-driver-mysql"
+            ]
         }
     },
-    "forwardPorts": [8000],
+    "forwardPorts": [8000, 3306],
     "postCreateCommand": "php --version"
 }
